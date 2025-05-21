@@ -24,7 +24,8 @@ function generatePin() {
 
 const allowedOrigins = [
     'http://localhost:3000',
-    'https://ransilvav29.github.io'
+    'https://ransilvav29.github.io',
+    'http://10.40.12.210:3000'
 ];
 
 app.use(cors({
