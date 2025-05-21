@@ -12,7 +12,7 @@ const rooms = {};
 const connectedSockets = {};
 const connectedIps = {};
 
-const IP_TIMEOUT = 15000; // Aumentado a 15 segundos para evitar liberaciones prematuras
+const IP_TIMEOUT = 1500000; // Aumentado a 15 segundos para evitar liberaciones prematuras
 
 function generatePin() {
     let pin;
